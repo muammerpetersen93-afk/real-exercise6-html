@@ -1,0 +1,89 @@
+<title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>Get in touch with us. We would love to hear from you!</p>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number">
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">Select a subject</option>
+                <option value="general">General Enquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="booking">Appointment Booking</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"
+                      placeholder="Write your message here..."
+                      rows="5" required></textarea>
+  </form>
+    </section>
+
+    <!-- Appointment Schedule Table -->
+    <section class="schedule">
+        <h2>Available Appointment Times</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Availability</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>09:00 - 10:00</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00 - 11:00</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>11:00 - 12:00</td>
+                <td>Fully Booked</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>13:00 - 14:00</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>14:00 - 15:00</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
